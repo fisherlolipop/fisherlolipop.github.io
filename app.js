@@ -31,7 +31,7 @@ const app = {
             .then(res=>res.json())
             .then((response) => {
                 response.map((v, idx)=>{
-                    this.imgg.push({"id":this.imgg.length, "src": v.src, "title":v.title})
+                    this.imgg.pop({"id":this.imgg.length, "src": v.src, "title":v.title})
                 })
             })
             .catch((error) => {
@@ -48,7 +48,7 @@ const app = {
             .then(res=>res.json())
             .then((response) => {
                 response.map((v, idx)=>{
-                    this.imgg.push({"id":this.imgg.length, "src": v.src, "title":v.title})
+                    this.imgg.pop({"id":this.imgg.length, "src": v.src, "title":v.title})
                 })
             })
             .catch((error) => {
@@ -56,7 +56,7 @@ const app = {
             });
         },
         addNewImg(even){
-            this.imgg.push({
+            this.imgg.pop({
                 "id":this.imgg.length, 
                 "src":this.urlAddpicInput, 
                 "title":this.titleAddpicInput
