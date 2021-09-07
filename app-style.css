@@ -1,0 +1,68 @@
+.block_post{
+    width: fit-content;
+}
+.block_post_lv1{
+    text-align: center; 
+}
+.card{
+    height: min-content;
+    width: 700px;
+}
+.card-img-top {
+    align-self: center;
+    height: 700px;
+    width: auto;
+}
+
+.card-tap-on-img:hover{
+    /* cursor: pointer; */
+    cursor: none;
+    transform: scale(135%);
+}
+
+.card-img .btn-fetch{
+    width: 943px;
+    align-self: center;
+}
+.disabled {
+    opacity: 0.4;
+}
+.card-body{
+    flex-wrap: nowrap;
+}
+header{
+    width: 100%;
+}
+
+.bl_addpic form{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.bl_addpic{
+    display: flex;
+    justify-content: center;
+}
+
+
+.url-addpic-input{
+    border: 1px solid rgb(31, 148, 226);
+    border-radius:4px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.title-addpic-input{
+    border: 1px solid rgb(31, 148, 226);
+    border-radius:4px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.bl_addpic button{
+    border-radius:8px;
+    margin-bottom: 20px;
+    width: 400px;
+    align-self:center;
+}
