@@ -82,7 +82,4 @@ const app = {
         this.fetchDataForMount()
     }   
 }
-const router = new VueRouter({
-  routes // short for `routes: routes`
-})
 Vue.createApp(app).mount('#app')
