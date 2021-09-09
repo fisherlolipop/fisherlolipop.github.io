@@ -1,7 +1,7 @@
 const app = {
     data() {
         return {
-            off: true,
+            off: false,
             urlAddpicInput: '',
             titleAddpicInput: '',
             data: [],
