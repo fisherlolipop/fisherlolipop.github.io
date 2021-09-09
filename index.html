@@ -58,7 +58,7 @@
             <div v-for="item of imgg" class="block_post_lv1 mt-4" :key="item.id">
                 <img :src="item.src" class="card-img-top align-content-center card-tap-on-img" alt="no-image">
                 <div class="card-body">
-                    <a href="item.src"> <p class="card-text">{{item.title}}</p> </a>
+                    <a :href="item.src"> <p class="card-text">{{item.title}}</p> </a>
                     
                 </div>
             </div>
