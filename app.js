@@ -1,3 +1,9 @@
+const Foo = { template: '<div>foo</div>' }
+const Bar = { template: '<div>bar</div>' }
+const routes = [
+  { path: '/foo', component: Foo },
+  { path: '/bar', component: Bar }
+]
 const app = {
     data() {
         return {
@@ -76,4 +82,7 @@ const app = {
         this.fetchDataForMount()
     }   
 }
+const router = new VueRouter({
+  routes // short for `routes: routes`
+})
 Vue.createApp(app).mount('#app')
