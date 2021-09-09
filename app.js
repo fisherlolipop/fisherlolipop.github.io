@@ -56,7 +56,7 @@ const app = {
             });
         },
         addNewImg(even){
-            this.imgg.unshift({
+            this.imgg.push({
                 "id":this.imgg.length, 
                 "src":this.urlAddpicInput, 
                 "title":this.titleAddpicInput
